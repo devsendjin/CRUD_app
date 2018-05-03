@@ -1,0 +1,32 @@
+.flex-conteiner {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-bottom: 5px;
+}
+.flex-conteiner:last-child {
+    margin-bottom: 0;
+}
+
+#update, #create {
+    display: none;
+    width: 400px;
+}
+
+#new-user {
+    margin-top: 5px;
+}
+.mainBtn {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#list {
+    padding: 5px;
+}
+.edit-btn {
+    margin-right: 5px;
+}
+.js-error {
+    color: #ff0000;
+}
